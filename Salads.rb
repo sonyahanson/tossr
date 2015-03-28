@@ -1,6 +1,6 @@
 #! /usr/bin/env ruby
 
-class Salad
+class OldSalad
     attr_accessor :leaf, :toppings, :dressings
     def initialize(leaf, toppings, dressings)
         @leaf = leaf
