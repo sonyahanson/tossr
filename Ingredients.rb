@@ -38,7 +38,8 @@ if __FILE__ == $0
     ingredients = { :meats => meats, :vegetables => vegetables}
 
     salad = Array.new
-    3.times { salad.push(ingredients[:vegetables].sample) }
+    number_of_ingredients = 4
+    salad.concat(ingredients[:vegetables].sample(number_of_ingredients))
     salad.push(ingredients[:meats].sample)
 
     salad.each { |ingr| puts ingr.inspect}
