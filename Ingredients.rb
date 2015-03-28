@@ -1,3 +1,5 @@
+
+
 class Ingredient
     attr_accessor :name, :price
     def initialize(name ,price)
@@ -8,6 +10,7 @@ end
 
 
 if __FILE__ == $0
+    require './Salads.rb'
     fiftycents = [ "Apple", "Bell pepper", "Carrot", "Cellery", "Chickpeas", "Corn", "Crouton", "Cucumber", "Kidney beans", "Onion", "Pasta", "Pinto Beans", "Radish", "Tomato" ]
     seventyfivecents = [ "Alfa alfa", "Beets", "Black olives", "Broccoli", "Cauliflower", "Egg", "Eggwhite", "Grapes", "Green olives", "Mandarin", "Mushroom", "Snowpeas", "Sweet green peas" ]
     onedollar = ["Baby corn", "Blue cheese", "Cheddar", "Cherry tomato", "Eggplant", "Grape leaves", "Kalamata olives", "Parmesan cheese", "Roasted pepper", "Tofu"]
@@ -35,11 +38,12 @@ if __FILE__ == $0
 
     ingredients = { :meats => meats, :vegetables => vegetables}
 
-    salad = Array.new
+    salad = Salad.new
     number_of_ingredients = 4
-    salad.concat(ingredients[:vegetables].sample(number_of_ingredients))
-    salad.push(ingredients[:meats].sample)
+    salad.add_ingredients(ingredients[:vegetables].sample(number_of_ingredients))
+    salad.add_ingredient(ingredients[:meats].sample, meat=true)
 
-    salad.each { |ingr| puts ingr.inspect}
+    puts salad.inspect
+
 
 end
