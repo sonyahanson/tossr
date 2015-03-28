@@ -1,5 +1,3 @@
-require 'money'
-
 class Ingredient
     attr_accessor :name, :price
     def initialize(name ,price)
