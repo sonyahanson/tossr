@@ -18,16 +18,29 @@ if __FILE__ == $0
     twofifty = ["Balsamic chicken", "Cajun chicken", "Chicken cutlet", "Lemon chicken", "Pesto chicken", "Sesame chicken"]
     fourdollar = ["Shrimp"]
     fourfifty = ["Salmon"]
+    meat_listing = ["Balsamic chicken", "Cajun chicken", "Chicken cutlet", "Lemon chicken", "Pesto chicken", "Sesame chicken", "Shrimp", "Salmon", "Bacon", "Dry tuna", "Grilled chicken", "Ham", "Tuna salad", "Turkey"]
     prices = [0.5, 0.75, 1.0, 1.5, 2.0, 2.5, 4.0, 4.5]
-    ingredients = Array.new
-
+    vegetables = Array.new
+    meats = Array.new
     [fiftycents, seventyfivecents, onedollar, onefifty, twodollar, twofifty, fourdollar, fourfifty].each_with_index do | list, index|
         price = prices[index]
         list.each do |ingredient|
-            ingredients.push(Ingredient.new(ingredient, Money.new(price, 'usd')))
+            if meat_listing.include? ingredient
+                meats.push(Ingredient.new(ingredient, price))
+            else
+                vegetables.push(Ingredient.new(ingredient, price))
+            end
         end
     end
-    ingredients.each do |ingr|
-        puts ingr.inspect
-    end
+
+
+
+    ingredients = { :meats => meats, :vegetables => vegetables}
+
+    salad = Array.new
+    3.times { salad.push(ingredients[:vegetables].sample) }
+    salad.push(ingredients[:meats].sample)
+
+    salad.each { |ingr| puts ingr.inspect}
+
 end
