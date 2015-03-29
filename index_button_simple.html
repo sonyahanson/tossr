@@ -24,41 +24,16 @@
 
 </div>
 
-<A href="https://github.com/tossr/tossr" onMouseOver="return changeImage()" on
-MouseOut= "return changeImageBack()" 
-onMouseDown="return handleMDown()" onMouseUp="return handleMUp()"
-><img
+<A href="#" onMouseOver="return changeImage()" ><img
 name="jsbutton" src="salad1.png" width="110" height="28" border="0" 
-alt="javascript button"></A> 
+alt="javascript button"></A>
 <SCRIPT language="JavaScript">
-upImage = new Image();
-upImage.src = "salad2.png";
-downImage = new Image();
-downImage.src = "salad1.png"
-normalImage = new Image();
-normalImage.src = "salad1.png";
-
 function changeImage()
 {
-  document.images["jsbutton"].src= upImage.src;
-  return true;
+document.images["jsbutton"].src= "salad2.png";
+return true;
 }
-function changeImageBack() 
-{
-   document.images["jsbutton"].src = normalImage.src;
-   return true;
-}
-function handleMDown()
-{
-	document.images["jsbutton"].src = downImage.src;
-	return true;
-}
-function handleMUp()
-{
-	changeImage();
-	return true;
-}
-</SCRIPT> 
+</SCRIPT>
 
  </body>
 </html>
