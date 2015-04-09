@@ -27,7 +27,18 @@ class Salad
         total = @base
         @ingredients.each { |ingredient| total += ingredient.price }
         @dressing.each_with_index { |dressing,index| index > 0 ? total += dressing.price : next }
-        return "%.2f" % total
+        return total
+    end
+    def inspect
+        # Representation of Salad object
+        repres = "Salad_ID = #{self.object_id}\n"
+        repres += "========\n"
+        @dressing.each_with_index {|dressing,index| repres += "#{dressing.name}: #{index > 0.00 ? format("%.2f", dressing.price) : "0.00"} \n"}
+        @ingredients.each {|ingredient| repres += "#{ingredient.name}: #{format("%.2f",ingredient.price)}\n"}
+        repres += "========\n"
+        repres += "Base price: #{format("%.2f",@base)}\n"
+        repres += "Total : #{format("%.2f",self.price)}"
+        return repres
     end
 end
 

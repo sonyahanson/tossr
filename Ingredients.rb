@@ -61,9 +61,9 @@ if __FILE__ == $0
 
     salad = Salad.new(base_price)
     salad.add_ingredient(ingredients[:leaf].sample)
+    salad.add_dressing(ingredients[:dressings].sample)
     salad.add_ingredients(ingredients[:vegetables].sample(number_of_ingredients))
     salad.add_ingredient(ingredients[:meats].sample, meat=true)
-    salad.add_dressing(ingredients[:dressings].sample)
 
     puts salad.inspect
 
