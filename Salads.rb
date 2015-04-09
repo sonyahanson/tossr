@@ -2,9 +2,11 @@
 
 class Salad
     attr_accessor :ingredients, :vegetarian
-    def initialize
+    def initialize (base_price)
+        @base = base_price
         @ingredients = Array.new
         @vegetarian = true
+        @dressing = Array.new
     end
     def add_ingredient(ingredient, meat=false)
         if meat
@@ -12,16 +14,19 @@ class Salad
         end
         @ingredients.push(ingredient)
     end
+    def add_dressing(dressing)
+        @dressing.push(dressing)
+    end
     def add_ingredients(ingredient_list, meat=false)
         if meat
             @vegetarian = false
         end
-        ingredient_list.each {|ingredient| self.add_ingredient(ingredient) }
+        ingredient_list.each {|ingredient| self.add_ingredient(ingredient)}
     end
-
     def price
-        total = 0.00
+        total = @base
         @ingredients.each { |ingredient| total += ingredient.price }
+        @dressing.each_with_index { |dressing,index| index > 0 ? total += dressing.price : next }
         return "%.2f" % total
     end
 end
