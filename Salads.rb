@@ -32,10 +32,11 @@ class Salad
     def inspect
         # Representation of Salad object
         repres = "Salad_ID = #{self.object_id}\n"
-        repres += "========\n"
+        repres += "==============\nDressing:\n------------\n"
         @dressing.each_with_index {|dressing,index| repres += "#{dressing.name}: #{index > 0.00 ? format("%.2f", dressing.price) : "0.00"} \n"}
+        repres += "\nIngredients:\n--------------\n"
         @ingredients.each {|ingredient| repres += "#{ingredient.name}: #{format("%.2f",ingredient.price)}\n"}
-        repres += "========\n"
+        repres += "\n==============\n"
         repres += "Base price: #{format("%.2f",@base)}\n"
         repres += "Total : #{format("%.2f",self.price)}"
         return repres
