@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>tossr</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,53 +9,58 @@
     <meta property="og:description" content="The Salad Generator" />
     <meta property="og:image" content="../img/lettuce.jpg" />
     <meta name="description" content="Using Ruby on Rails to make your salads">
-        <meta name="keywords" content="Salads, Ruby, Rails">
-  </head>
+    <meta name="keywords" content="Salads, Ruby, Rails">
+</head>
 
-  <body>
+<body>
 
-<div class="header">
+    <div class="header">
         <div class="container">
-        <div class="titleheader">
-            <h1>"Once upon a time...</h1><br><br>
-            <h1>Bas and Sonya were overwhelmed by salad choices."</h1><br><br>
-            <h3><a href="https://github.com/tossr/tossr">tossr</a> generates and optimizes your salad for you, so you don't have to.</h3>
+            <div class="titleheader">
+                <h1>"Once upon a time...</h1>
+                <br>
+                <br>
+                <h1>Bas and Sonya were overwhelmed by salad choices."</h1>
+                <br>
+                <br>
+                <h3><a href="https://github.com/tossr/tossr">tossr</a> generates and optimizes your salad for you, so you don't have to.</h3>
+            </div>
         </div>
+
     </div>
 
-</div>
+    <A href="https://github.com/tossr/tossr" onMouseOver="return changeImage()" onMouseOut="return changeImageBack()" onMouseDown="return handleMDown()" onMouseUp="return handleMUp()">
+        <img name="jsbutton" src="salad1.png" width="110" height="28" border="0" alt="javascript button">
+    </A>
+    <SCRIPT language="JavaScript">
+        upImage = new Image();
+        upImage.src = "salad2.png";
+        downImage = new Image();
+        downImage.src = "salad1.png"
+        normalImage = new Image();
+        normalImage.src = "salad1.png";
 
-<A href="https://github.com/tossr/tossr" onMouseOver="return changeImage()" onMouseOut= "return changeImageBack()" onMouseDown="return handleMDown()" onMouseUp="return handleMUp()"
-><img name="jsbutton" src="salad1.png" width="110" height="28" border="0" alt="javascript button"></A>
-<SCRIPT language="JavaScript">
-upImage = new Image();
-upImage.src = "salad2.png";
-downImage = new Image();
-downImage.src = "salad1.png"
-normalImage = new Image();
-normalImage.src = "salad1.png";
+        function changeImage() {
+            document.images["jsbutton"].src = upImage.src;
+            return true;
+        }
 
-function changeImage()
-{
-  document.images["jsbutton"].src= upImage.src;
-  return true;
-}
-function changeImageBack()
-{
-   document.images["jsbutton"].src = normalImage.src;
-   return true;
-}
-function handleMDown()
-{
-	document.images["jsbutton"].src = downImage.src;
-	return true;
-}
-function handleMUp()
-{
-	changeImage();
-	return true;
-}
-</SCRIPT>
+        function changeImageBack() {
+            document.images["jsbutton"].src = normalImage.src;
+            return true;
+        }
 
- </body>
+        function handleMDown() {
+            document.images["jsbutton"].src = downImage.src;
+            return true;
+        }
+
+        function handleMUp() {
+            changeImage();
+            return true;
+        }
+    </SCRIPT>
+
+</body>
+
 </html>
