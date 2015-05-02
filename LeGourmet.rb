@@ -1,3 +1,4 @@
+# A menu generator for LeGourmet
 require "./Salads.rb"
 require 'yaml'
 

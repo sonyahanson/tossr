@@ -2,6 +2,7 @@ require './Salads.rb'
 require './Menu_reader.rb'
 include Salads
 
+# The menu is read from a .yml file
 ingredients, sizes = read_yml_menu("legourmet.yml")
 
 base_price = sizes[:small]
