@@ -1,6 +1,5 @@
-    require './Ingredients.rb'
     require './Salads.rb'
-    require './LeGourmet.rb'    
+    require './LeGourmet.rb'
 
     include LeGourmet
     base_price = LeGourmet::Sizes[:small]

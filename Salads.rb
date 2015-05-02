@@ -1,5 +1,23 @@
 #! /usr/bin/env ruby
 
+# A class to describe a basic ingredient
+class Ingredient
+
+    # @name is a string
+    attr_accessor :name
+    # @price is a float
+    attr_accessor :price
+
+    # ==== Parameters
+    #
+    # * +name+ - string, the name of the ingredient, e.g. bacon
+    # * +price+ - float, the price of the ingredient, e.g. 1.50
+    def initialize(name ,price)
+        @name = name
+        @price = price
+    end
+end
+
 
 # A container type class for composing a salad
 class Salad
