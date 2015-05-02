@@ -1,0 +1,187 @@
+---
+:ingredients:
+  :meats:
+    Bacon:
+      price: 2.0
+    Dry tuna:
+      price: 2.0
+    Grilled chicken:
+      price: 2.0
+    Ham:
+      price: 2.0
+    Tuna salad:
+      price: 2.0
+    Turkey:
+      price: 2.0
+    Balsamic chicken:
+      price: 2.5
+    Cajun chicken:
+      price: 2.5
+    Chicken cutlet:
+      price: 2.5
+    Lemon chicken:
+      price: 2.5
+    Pesto chicken:
+      price: 2.5
+    Sesame chicken:
+      price: 2.5
+    Shrimp:
+      price: 4.0
+    Salmon:
+      price: 4.5
+  :vegetables:
+    Apple:
+      price: 0.5
+    Bell pepper:
+      price: 0.5
+    Carrot:
+      price: 0.5
+    Cellery:
+      price: 0.5
+    Chickpeas:
+      price: 0.5
+    Corn:
+      price: 0.5
+    Crouton:
+      price: 0.5
+    Cucumber:
+      price: 0.5
+    Kidney beans:
+      price: 0.5
+    Onion:
+      price: 0.5
+    Pasta:
+      price: 0.5
+    Pinto Beans:
+      price: 0.5
+    Radish:
+      price: 0.5
+    Tomato:
+      price: 0.5
+    Alfa alfa:
+      price: 0.75
+    Beets:
+      price: 0.75
+    Black olives:
+      price: 0.75
+    Broccoli:
+      price: 0.75
+    Cauliflower:
+      price: 0.75
+    Egg:
+      price: 0.75
+    Eggwhite:
+      price: 0.75
+    Grapes:
+      price: 0.75
+    Green olives:
+      price: 0.75
+    Mandarin:
+      price: 0.75
+    Mushroom:
+      price: 0.75
+    Snowpeas:
+      price: 0.75
+    Sweet green peas:
+      price: 0.75
+    Baby corn:
+      price: 1.0
+    Blue cheese:
+      price: 1.0
+    Cheddar:
+      price: 1.0
+    Cherry tomato:
+      price: 1.0
+    Eggplant:
+      price: 1.0
+    Grape leaves:
+      price: 1.0
+    Kalamata olives:
+      price: 1.0
+    Parmesan cheese:
+      price: 1.0
+    Roasted pepper:
+      price: 1.0
+    Tofu:
+      price: 1.0
+    Avocado:
+      price: 1.5
+    Artichoke hearts:
+      price: 1.5
+    Asparagus:
+      price: 1.5
+    Brussel sprout:
+      price: 1.5
+    Cashewnuts:
+      price: 1.5
+    Cranberry:
+      price: 1.5
+    Feta cheese:
+      price: 1.5
+    Mix vegetables:
+      price: 1.5
+    Mozzarella:
+      price: 1.5
+    Portabella mushroom:
+      price: 1.5
+    Soybeans:
+      price: 1.5
+    Sundried tomato:
+      price: 1.5
+    Sunflower seeds:
+      price: 1.5
+    Almond:
+      price: 2.0
+    Hearts of palm:
+      price: 2.0
+    Walnuts:
+      price: 2.0
+  :dressings:
+    balsamic vinaigrette:
+      price: 0.5
+    classic ranch:
+      price: 0.5
+    crème caesar:
+      price: 0.5
+    chunky blue cheese:
+      price: 0.5
+    l.f. honey dijon:
+      price: 0.5
+    light italian:
+      price: 0.5
+    roasted garlic red wine:
+      price: 0.5
+    french:
+      price: 0.5
+    russian:
+      price: 0.5
+    feta cheese:
+      price: 0.5
+    sesame ginger:
+      price: 0.5
+    extra virgin olive oil:
+      price: 0.5
+    cranberry vinaigrette:
+      price: 0.5
+    balsamic vinegar:
+      price: 0.5
+    fresh lemon juice:
+      price: 0.5
+    raspberry vinaigrette:
+      price: 0.5
+    honey mustard:
+      price: 0.5
+    italian:
+      price: 0.5
+    red wine:
+      price: 0.5
+  :leaf:
+    organic mesclun:
+      price: 0.0
+    romaine:
+      price: 0.0
+    baby spinach:
+      price: 0.0
+:sizes:
+  :small: 3.0
+  :large: 4.0

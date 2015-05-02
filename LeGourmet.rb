@@ -1,6 +1,9 @@
-require './Salads.rb'
+# A menu generator for LeGourmet
+require "./Salads.rb"
+require 'yaml'
 
 module LeGourmet
+    include Salads
 
     fiftycents = [ "Apple", "Bell pepper", "Carrot", "Cellery", "Chickpeas", "Corn", "Crouton", "Cucumber", "Kidney beans", "Onion", "Pasta", "Pinto Beans", "Radish", "Tomato" ]
     seventyfivecents = [ "Alfa alfa", "Beets", "Black olives", "Broccoli", "Cauliflower", "Egg", "Eggwhite", "Grapes", "Green olives", "Mandarin", "Mushroom", "Snowpeas", "Sweet green peas" ]
@@ -14,30 +17,38 @@ module LeGourmet
     prices = [0.5, 0.75, 1.0, 1.5, 2.0, 2.5, 4.0, 4.5]
     dressings_list  = ["balsamic vinaigrette", "classic ranch", "crème caesar", "chunky blue cheese", "l.f. honey dijon", "light italian", "roasted garlic red wine", "french", "russian", "feta cheese", "sesame ginger","extra virgin olive oil", "cranberry vinaigrette", "balsamic vinegar", "fresh lemon juice", "raspberry vinaigrette", "honey mustard", "italian", "red wine"]
     leaf_list = ["organic mesclun", "romaine", "baby spinach"]
-    vegetables = Array.new
-    meats = Array.new
+    vegetables = Hash.new
+    meats = Hash.new
     [fiftycents, seventyfivecents, onedollar, onefifty, twodollar, twofifty, fourdollar, fourfifty].each_with_index do | list, index|
         price = prices[index]
         list.each do |ingredient|
             if meat_listing.include? ingredient
-                meats.push(Ingredient.new(ingredient, price))
+                meats[ingredient] = { 'price' => price}
             else
-                vegetables.push(Ingredient.new(ingredient, price))
+                vegetables[ingredient] = { 'price' => price}
             end
         end
     end
 
-    dressings = Array.new
+    dressings = Hash.new
     dressings_list.each do |dressing|
-        dressings.push(Ingredient.new(dressing, price=0.50))
+        dressings[dressing] = { 'price'=> 0.50 }
     end
 
-    leaves = Array.new
+    leaves = Hash.new
     leaf_list.each do |leaf|
-        leaves.push(Ingredient.new(leaf, 0.0))
+        leaves[leaf] = { 'price' => 0.00 }
     end
 
+    # The price for each available size
     Sizes = { :small => 3.00, :large => 4.00 }
+
+    # Hash containing all the available 'Ingredient's from  the Le Gourmet menu.
     Ingredients = { :meats => meats, :vegetables => vegetables, :dressings => dressings, :leaf => leaves}
+
+    yaml_content = {:ingredients => Ingredients, :sizes => Sizes}
+    File.open("legourmet.yml", "w") do |file|
+       file.write yaml_content.to_yaml
+    end
 
 end
