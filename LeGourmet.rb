@@ -1,6 +1,6 @@
+
+module LeGourmet
  
-    require './Ingredients.rb'
-    require './Salads.rb'
     fiftycents = [ "Apple", "Bell pepper", "Carrot", "Cellery", "Chickpeas", "Corn", "Crouton", "Cucumber", "Kidney beans", "Onion", "Pasta", "Pinto Beans", "Radish", "Tomato" ]
     seventyfivecents = [ "Alfa alfa", "Beets", "Black olives", "Broccoli", "Cauliflower", "Egg", "Eggwhite", "Grapes", "Green olives", "Mandarin", "Mushroom", "Snowpeas", "Sweet green peas" ]
     onedollar = ["Baby corn", "Blue cheese", "Cheddar", "Cherry tomato", "Eggplant", "Grape leaves", "Kalamata olives", "Parmesan cheese", "Roasted pepper", "Tofu"]
@@ -31,28 +31,12 @@
         dressings.push(Ingredient.new(dressing, price=0.50))
     end
 
-    # Will need to come up with a more clever way for this later
-    # Base salad settings
-    size = "small"
-    number_of_ingredients = 3
-
-    if size == "small"
-        base_price = 3.00
-    else
-        base_price = 4.00
-    end
-
     leaves = Array.new
     leaf_list.each do |leaf|
         leaves.push(Ingredient.new(leaf, 0.0))
     end
 
-    ingredients = { :meats => meats, :vegetables => vegetables, :dressings => dressings, :leaf => leaves}
-
-    salad = Salad.new(base_price)
-    salad.add_ingredient(ingredients[:leaf].sample)
-    salad.add_dressing(ingredients[:dressings].sample)
-    salad.add_ingredients(ingredients[:vegetables].sample(number_of_ingredients))
-    salad.add_ingredient(ingredients[:meats].sample, meat=true)
-
-    puts salad.inspect
+    Sizes = { :small => 3.00, :large => 4.00 }
+    Ingredients = { :meats => meats, :vegetables => vegetables, :dressings => dressings, :leaf => leaves}
+    
+end
