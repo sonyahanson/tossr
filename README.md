@@ -8,3 +8,7 @@ Ruby
 and
 
 Salads.
+
+To get a salad suggestion, run the command
+
+`ruby Toss.rb`
