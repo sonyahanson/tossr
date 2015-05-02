@@ -45,8 +45,9 @@ module LeGourmet
     # Hash containing all the available 'Ingredient's from  the Le Gourmet menu.
     Ingredients = { :meats => meats, :vegetables => vegetables, :dressings => dressings, :leaf => leaves}
 
-    # File.open("legourmet.yml", "w") do |file|
-    #   file.write Ingredients.to_yaml
-    # end
+    yaml_content = {:ingredients => Ingredients, :sizes => Sizes}
+    File.open("legourmet.yml", "w") do |file|
+       file.write yaml_content.to_yaml
+    end
 
 end
