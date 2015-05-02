@@ -1,6 +1,7 @@
-require './Salads.rb'
+require "./Salads.rb"
 
 module LeGourmet
+    include Salads
 
     fiftycents = [ "Apple", "Bell pepper", "Carrot", "Cellery", "Chickpeas", "Corn", "Crouton", "Cucumber", "Kidney beans", "Onion", "Pasta", "Pinto Beans", "Radish", "Tomato" ]
     seventyfivecents = [ "Alfa alfa", "Beets", "Black olives", "Broccoli", "Cauliflower", "Egg", "Eggwhite", "Grapes", "Green olives", "Mandarin", "Mushroom", "Snowpeas", "Sweet green peas" ]
@@ -20,24 +21,27 @@ module LeGourmet
         price = prices[index]
         list.each do |ingredient|
             if meat_listing.include? ingredient
-                meats.push(Ingredient.new(ingredient, price))
+                meats.push(Salads::Ingredient.new(ingredient, price))
             else
-                vegetables.push(Ingredient.new(ingredient, price))
+                vegetables.push(Salads::Ingredient.new(ingredient, price))
             end
         end
     end
 
     dressings = Array.new
     dressings_list.each do |dressing|
-        dressings.push(Ingredient.new(dressing, price=0.50))
+        dressings.push(Salads::Ingredient.new(dressing, price=0.50))
     end
 
     leaves = Array.new
     leaf_list.each do |leaf|
-        leaves.push(Ingredient.new(leaf, 0.0))
+        leaves.push(Salads::Ingredient.new(leaf, 0.0))
     end
 
+    # The price for each available size
     Sizes = { :small => 3.00, :large => 4.00 }
+
+    # Hash containing all the available 'Ingredient's from  the Le Gourmet menu.
     Ingredients = { :meats => meats, :vegetables => vegetables, :dressings => dressings, :leaf => leaves}
 
 end
