@@ -13,3 +13,24 @@ Salads.
 To get a salad suggestion, run the command
 
 `ruby Toss.rb`
+
+Example output:
+```
+Salad_ID = 9918120
+==============
+Dressing:
+------------
+balsamic vinaigrette: 0.00 
+
+Ingredients:
+--------------
+baby spinach: 0.00
+Almond: 2.00
+Cauliflower: 0.75
+Mozzarella: 1.50
+Grilled chicken: 2.00
+
+==============
+Base price: 3.00
+Total : 9.25
+```
