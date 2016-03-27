@@ -1,0 +1,17 @@
+<h1>Listing salads</h1>
+
+<%= link_to 'New salad', new_salad_path %>
+ 
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+ 
+  <% @salads.each do |salad| %>
+    <tr>
+      <td><%= salad.title %></td>
+      <td><%= salad.text %></td>
+    </tr>
+  <% end %>
+</table>
