@@ -8,11 +8,12 @@ def parse_wikia_recipe(text)
     
     text.each_line do |line|
         if line.start_with?("*")
-            ingredients.push(line)
+            line.scan(/\[\[(\w*)\]\]/) do |ingredient|
+                ingredients.push($1)
+            end
         end
     end
     if ingredients.length == 0
-        puts text
     end
     return ingredients
     
@@ -25,7 +26,12 @@ builder = Nokogiri::XML::Builder.new do |xml|
         
         pages.each_with_index  do |page,pi|
             xml.salad {
-                xml.ingredients = parse_wikia_recipe(page.xpath("//text")[pi].to_s)
+                xml.title = page.xpath("//title")[pi].text
+                xml.ingredients {
+                    parse_wikia_recipe(page.xpath("//text")[pi].text).each do |ingredient|
+                        xml.ingedient = ingredient
+                    end
+                }
             }
         end
       }
