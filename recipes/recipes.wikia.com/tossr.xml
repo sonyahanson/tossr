@@ -123,11 +123,13 @@
     <salad>
       <title>Tabbouleh Salad with Lemon-Garlic Dressing</title>
       <ingredients>
+        <ingedient>bulgur</ingedient>
         <ingedient>water</ingedient>
         <ingedient>tomato</ingedient>
         <ingedient>cucumber</ingedient>
         <ingedient>cilantro</ingedient>
         <ingedient>mint</ingedient>
+        <ingedient>chickpea</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>pepper</ingedient>
         <ingedient>garlic</ingedient>
@@ -200,6 +202,7 @@
       <ingredients>
         <ingedient>basil</ingedient>
         <ingedient>garlic</ingedient>
+        <ingedient>rotini</ingedient>
         <ingedient>broccoli</ingedient>
         <ingedient>kiwi</ingedient>
       </ingredients>
@@ -232,6 +235,7 @@
         <ingedient>gelatin</ingedient>
         <ingedient>honey</ingedient>
         <ingedient>water</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>pineapple</ingedient>
         <ingedient>cream</ingedient>
         <ingedient>mayonnaise</ingedient>
@@ -244,6 +248,7 @@
       <title>Watermelon Romaine Salad</title>
       <ingredients>
         <ingedient>watermelon</ingedient>
+        <ingedient>feta</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -261,6 +266,7 @@
         <ingedient>tomato</ingedient>
         <ingedient>mayonnaise</ingedient>
         <ingedient>salt</ingedient>
+        <ingedient>mustard</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -290,7 +296,11 @@
     </salad>
     <salad>
       <title>Finnish Leaf Lettuce Salad</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>sugar</ingedient>
+        <ingedient>salt</ingedient>
+        <ingedient>cream</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Corn Salad II</title>
@@ -316,7 +326,13 @@
     </salad>
     <salad>
       <title>Fresh Peach Salad</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>blueberries</ingedient>
+        <ingedient>cherries</ingedient>
+        <ingedient>peaches</ingedient>
+        <ingedient>sugar</ingedient>
+        <ingedient>raspberries</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Popeye and Olive Oyl Salad</title>
@@ -340,7 +356,13 @@
     </salad>
     <salad>
       <title>Carrot and Herb Salad</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>Cilantro</ingedient>
+        <ingedient>Rosemary</ingedient>
+        <ingedient>Carrots</ingedient>
+        <ingedient>Basil</ingedient>
+        <ingedient>lettuce</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Christmas Vegetable Salad Mold</title>
@@ -348,6 +370,7 @@
         <ingedient>gelatin</ingedient>
         <ingedient>water</ingedient>
         <ingedient>salt</ingedient>
+        <ingedient>dill</ingedient>
         <ingedient>yogurt</ingedient>
         <ingedient>radishes</ingedient>
         <ingedient>parsley</ingedient>
@@ -399,6 +422,7 @@
         <ingedient>tomato</ingedient>
         <ingedient>cucumber</ingedient>
         <ingedient>egg</ingedient>
+        <ingedient>ketchup</ingedient>
         <ingedient>onion</ingedient>
       </ingredients>
     </salad>
@@ -438,7 +462,14 @@
     </salad>
     <salad>
       <title>Turkey Dijon Salad</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>turkey</ingedient>
+        <ingedient>mayonnaise</ingedient>
+        <ingedient>celery</ingedient>
+        <ingedient>onions</ingedient>
+        <ingedient>garlic</ingedient>
+        <ingedient>eggs</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Macaroni and Chicken Salad</title>
@@ -453,15 +484,33 @@
     </salad>
     <salad>
       <title>Easy Rice Salad</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>Salsa</ingedient>
+        <ingedient>rice</ingedient>
+        <ingedient>corn</ingedient>
+        <ingedient>avocado</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Cat's Cucumber Salad</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>cucumber</ingedient>
+        <ingedient>peas</ingedient>
+        <ingedient>scallions</ingedient>
+        <ingedient>cream</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Chipotle Potato Salad with Jicama</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>eggs</ingedient>
+        <ingedient>mayonnaise</ingedient>
+        <ingedient>salt</ingedient>
+        <ingedient>celery</ingedient>
+        <ingedient>onion</ingedient>
+        <ingedient>jicama</ingedient>
+        <ingedient>cilantro</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Tropical Mango Fruit Salad</title>
@@ -524,6 +573,7 @@
         <ingedient>celery</ingedient>
         <ingedient>Onion</ingedient>
         <ingedient>Onion</ingedient>
+        <ingedient>fructose</ingedient>
         <ingedient>Mayonnaise</ingedient>
       </ingredients>
     </salad>
@@ -569,11 +619,25 @@
     </salad>
     <salad>
       <title>Mozzarella Tomato</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>tomatoes</ingedient>
+        <ingedient>Mozarella</ingedient>
+        <ingedient>Basil</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Tomatoes with Vinaigrette</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>tomato</ingedient>
+        <ingedient>oregano</ingedient>
+        <ingedient>salt</ingedient>
+        <ingedient>pepper</ingedient>
+        <ingedient>mustard</ingedient>
+        <ingedient>garlic</ingedient>
+        <ingedient>Lettuce</ingedient>
+        <ingedient>onion</ingedient>
+        <ingedient>parsley</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Marinated Tomatoes</title>
@@ -614,6 +678,7 @@
         <ingedient>honey</ingedient>
         <ingedient>chicken</ingedient>
         <ingedient>cantaloupe</ingedient>
+        <ingedient>strawberry</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -850,6 +915,7 @@
       <ingredients>
         <ingedient>greens</ingedient>
         <ingedient>feta</ingedient>
+        <ingedient>chickpeas</ingedient>
         <ingedient>cucumber</ingedient>
         <ingedient>oregano</ingedient>
         <ingedient>salt</ingedient>
@@ -870,6 +936,7 @@
         <ingedient>Wheat</ingedient>
         <ingedient>Pasta</ingedient>
         <ingedient>asparagus</ingedient>
+        <ingedient>greens</ingedient>
         <ingedient>strawberries</ingedient>
         <ingedient>water</ingedient>
         <ingedient>lemon</ingedient>
@@ -884,6 +951,7 @@
         <ingedient>Cauliflower</ingedient>
         <ingedient>orange</ingedient>
         <ingedient>lemon</ingedient>
+        <ingedient>ginger</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>pepper</ingedient>
       </ingredients>
@@ -977,9 +1045,18 @@
     <salad>
       <title>American Sub Salad</title>
       <ingredients>
+        <ingedient>Salami</ingedient>
+        <ingedient>pepperoni</ingedient>
+        <ingedient>Ham</ingedient>
+        <ingedient>American</ingedient>
+        <ingedient>Provolone</ingedient>
         <ingedient>tomato</ingedient>
+        <ingedient>Diced</ingedient>
         <ingedient>Onion</ingedient>
         <ingedient>Pepper</ingedient>
+        <ingedient>mayonnaise</ingedient>
+        <ingedient>oregano</ingedient>
+        <ingedient>bread</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -999,6 +1076,8 @@
       <title>Aromatic Rice Salad with Mango Chutney</title>
       <ingredients>
         <ingedient>mango</ingedient>
+        <ingedient>ginger</ingedient>
+        <ingedient>ginger</ingedient>
         <ingedient>rice</ingedient>
         <ingedient>celery</ingedient>
         <ingedient>salt</ingedient>
@@ -1012,6 +1091,7 @@
         <ingedient>water</ingedient>
         <ingedient>mirin</ingedient>
         <ingedient>salt</ingedient>
+        <ingedient>greens</ingedient>
         <ingedient>carrot</ingedient>
       </ingredients>
     </salad>
@@ -1044,6 +1124,7 @@
         <ingedient>salt</ingedient>
         <ingedient>basil</ingedient>
         <ingedient>basil</ingedient>
+        <ingedient>cereals</ingedient>
         <ingedient>rice</ingedient>
         <ingedient>Shrimp</ingedient>
         <ingedient>peanut</ingedient>
@@ -1196,6 +1277,7 @@
       <title>Caribbean Roast Chicken and Avocado Salad</title>
       <ingredients>
         <ingedient>spinach</ingedient>
+        <ingedient>chicken</ingedient>
         <ingedient>cilantro</ingedient>
         <ingedient>avocado</ingedient>
         <ingedient>lime</ingedient>
@@ -1254,6 +1336,8 @@
         <ingedient>rice</ingedient>
         <ingedient>Chicken</ingedient>
         <ingedient>celery</ingedient>
+        <ingedient>pimiento</ingedient>
+        <ingedient>gelatin</ingedient>
         <ingedient>Mayonnaise</ingedient>
         <ingedient>pepper</ingedient>
         <ingedient>salt</ingedient>
@@ -1299,6 +1383,7 @@
         <ingedient>pepper</ingedient>
         <ingedient>cucumber</ingedient>
         <ingedient>tomato</ingedient>
+        <ingedient>mayonnaise</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>pepper</ingedient>
         <ingedient>pepper</ingedient>
@@ -1347,6 +1432,7 @@
         <ingedient>salt</ingedient>
         <ingedient>Mayonnaise</ingedient>
         <ingedient>mustard</ingedient>
+        <ingedient>pimiento</ingedient>
         <ingedient>egg</ingedient>
         <ingedient>lettuce</ingedient>
       </ingredients>
@@ -1365,6 +1451,7 @@
       <title>Coconut-Tuna Seviche</title>
       <ingredients>
         <ingedient>ginger</ingedient>
+        <ingedient>horseradish</ingedient>
         <ingedient>Tuna</ingedient>
         <ingedient>tomato</ingedient>
         <ingedient>salt</ingedient>
@@ -1400,6 +1487,8 @@
         <ingedient>carrot</ingedient>
         <ingedient>Onion</ingedient>
         <ingedient>corn</ingedient>
+        <ingedient>dill</ingedient>
+        <ingedient>flour</ingedient>
         <ingedient>rice</ingedient>
         <ingedient>parsley</ingedient>
       </ingredients>
@@ -1426,6 +1515,7 @@
       <ingredients>
         <ingedient>Wheat</ingedient>
         <ingedient>Onion</ingedient>
+        <ingedient>scallions</ingedient>
         <ingedient>tomato</ingedient>
         <ingedient>mint</ingedient>
         <ingedient>parsley</ingedient>
@@ -1436,7 +1526,9 @@
       <title>Cranberry Rice Salad</title>
       <ingredients>
         <ingedient>rice</ingedient>
+        <ingedient>cranberry</ingedient>
         <ingedient>celery</ingedient>
+        <ingedient>cashews</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -1444,6 +1536,7 @@
       <ingredients>
         <ingedient>parsley</ingedient>
         <ingedient>Mayonnaise</ingedient>
+        <ingedient>cranberry</ingedient>
         <ingedient>rice</ingedient>
         <ingedient>Turkey</ingedient>
         <ingedient>celery</ingedient>
@@ -1463,6 +1556,7 @@
       <title>Creamy Frankfurter Salad</title>
       <ingredients>
         <ingedient>rice</ingedient>
+        <ingedient>frankfurters</ingedient>
         <ingedient>celery</ingedient>
         <ingedient>Onion</ingedient>
         <ingedient>Cheddar</ingedient>
@@ -1545,6 +1639,7 @@
       <title>East-West Salmon Salad</title>
       <ingredients>
         <ingedient>rice</ingedient>
+        <ingedient>salmon</ingedient>
         <ingedient>celery</ingedient>
         <ingedient>Onion</ingedient>
         <ingedient>Mayonnaise</ingedient>
@@ -1588,7 +1683,9 @@
         <ingedient>celery</ingedient>
         <ingedient>Mayonnaise</ingedient>
         <ingedient>salt</ingedient>
+        <ingedient>ginger</ingedient>
         <ingedient>lettuce</ingedient>
+        <ingedient>grapes</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -1631,6 +1728,7 @@
         <ingedient>Mayonnaise</ingedient>
         <ingedient>Mayonnaise</ingedient>
         <ingedient>zucchini</ingedient>
+        <ingedient>zucchini</ingedient>
         <ingedient>tomato</ingedient>
         <ingedient>Cheddar</ingedient>
         <ingedient>Cheese</ingedient>
@@ -1646,6 +1744,7 @@
         <ingedient>mint</ingedient>
         <ingedient>lemon</ingedient>
         <ingedient>oil</ingedient>
+        <ingedient>flatbread</ingedient>
         <ingedient>lettuce</ingedient>
         <ingedient>cucumber</ingedient>
         <ingedient>tomato</ingedient>
@@ -1684,6 +1783,7 @@
       <title>Fish Salad</title>
       <ingredients>
         <ingedient>Halibut</ingedient>
+        <ingedient>horseradish</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>Onion</ingedient>
         <ingedient>egg</ingedient>
@@ -1732,6 +1832,7 @@
       <title>Gazpacho Rice Salad</title>
       <ingredients>
         <ingedient>Shrimp</ingedient>
+        <ingedient>salsa</ingedient>
         <ingedient>rice</ingedient>
         <ingedient>cucumber</ingedient>
         <ingedient>garlic</ingedient>
@@ -1747,6 +1848,7 @@
         <ingedient>mustard</ingedient>
         <ingedient>celery</ingedient>
         <ingedient>Onion</ingedient>
+        <ingedient>pimiento</ingedient>
         <ingedient>egg</ingedient>
       </ingredients>
     </salad>
@@ -1756,6 +1858,7 @@
         <ingedient>cucumber</ingedient>
         <ingedient>carrot</ingedient>
         <ingedient>mint</ingedient>
+        <ingedient>cilantro</ingedient>
         <ingedient>salt</ingedient>
       </ingredients>
     </salad>
@@ -1774,6 +1877,7 @@
         <ingedient>celery</ingedient>
         <ingedient>dill</ingedient>
         <ingedient>Onion</ingedient>
+        <ingedient>croutons</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -1807,6 +1911,7 @@
     <salad>
       <title>Hawaiian Rice Salad</title>
       <ingredients>
+        <ingedient>cereals</ingedient>
         <ingedient>rice</ingedient>
         <ingedient>turmeric</ingedient>
         <ingedient>pineapple</ingedient>
@@ -1838,6 +1943,7 @@
         <ingedient>potato</ingedient>
         <ingedient>Veal</ingedient>
         <ingedient>Apple</ingedient>
+        <ingedient>beets</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>pepper</ingedient>
         <ingedient>onion</ingedient>
@@ -1880,6 +1986,8 @@
     <salad>
       <title>Jan Bilton's South of the Border Salad</title>
       <ingredients>
+        <ingedient>tomato</ingedient>
+        <ingedient>cantaloupe</ingedient>
         <ingedient>chives</ingedient>
         <ingedient>basil</ingedient>
         <ingedient>salt</ingedient>
@@ -1891,6 +1999,7 @@
       <ingredients>
         <ingedient>onion</ingedient>
         <ingedient>tomato</ingedient>
+        <ingedient>coriander</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>pepper</ingedient>
       </ingredients>
@@ -1911,6 +2020,7 @@
       <ingredients>
         <ingedient>salt</ingedient>
         <ingedient>garlic</ingedient>
+        <ingedient>ginger</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -1930,6 +2040,7 @@
       <ingredients>
         <ingedient>oil</ingedient>
         <ingedient>salt</ingedient>
+        <ingedient>kumara</ingedient>
         <ingedient>pineapple</ingedient>
         <ingedient>celery</ingedient>
       </ingredients>
@@ -1937,6 +2048,7 @@
     <salad>
       <title>Labanos Salad</title>
       <ingredients>
+        <ingedient>labanos</ingedient>
         <ingedient>tomato</ingedient>
         <ingedient>salt</ingedient>
       </ingredients>
@@ -1966,6 +2078,7 @@
         <ingedient>pepper</ingedient>
         <ingedient>tomato</ingedient>
         <ingedient>lettuce</ingedient>
+        <ingedient>sumak</ingedient>
         <ingedient>oil</ingedient>
         <ingedient>lemon</ingedient>
         <ingedient>cinnamon</ingedient>
@@ -1987,8 +2100,11 @@
       <title>Lobster and Rice Salad</title>
       <ingredients>
         <ingedient>rice</ingedient>
+        <ingedient>vinaigrette</ingedient>
+        <ingedient>lobster</ingedient>
         <ingedient>Mushroom</ingedient>
         <ingedient>basil</ingedient>
+        <ingedient>dill</ingedient>
         <ingedient>chives</ingedient>
       </ingredients>
     </salad>
@@ -2002,6 +2118,7 @@
         <ingedient>parsley</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>pepper</ingedient>
+        <ingedient>Tabasco</ingedient>
         <ingedient>almond</ingedient>
         <ingedient>lettuce</ingedient>
         <ingedient>celery</ingedient>
@@ -2032,6 +2149,7 @@
     <salad>
       <title>Marinated Bean Salad</title>
       <ingredients>
+        <ingedient>Spam</ingedient>
         <ingedient>celery</ingedient>
         <ingedient>Onion</ingedient>
         <ingedient>tomato</ingedient>
@@ -2066,14 +2184,13 @@
         <ingedient>parsley</ingedient>
         <ingedient>peppers</ingedient>
         <ingedient>rice</ingedient>
+        <ingedient>avocado</ingedient>
         <ingedient>lettuce</ingedient>
       </ingredients>
     </salad>
     <salad>
       <title>Maytag Bleu Cheese Vinaigrette</title>
-      <ingredients>
-        <ingedient>Cheese</ingedient>
-      </ingredients>
+      <ingredients/>
     </salad>
     <salad>
       <title>Meat Salad</title>
@@ -2102,6 +2219,7 @@
         <ingedient>Lamb</ingedient>
         <ingedient>Veal</ingedient>
         <ingedient>Beef</ingedient>
+        <ingedient>Anchovy</ingedient>
         <ingedient>lettuce</ingedient>
         <ingedient>mustard</ingedient>
         <ingedient>salt</ingedient>
@@ -2182,9 +2300,12 @@
       <title>Molded Crab Meat Salad</title>
       <ingredients>
         <ingedient>rice</ingedient>
+        <ingedient>crab</ingedient>
         <ingedient>celery</ingedient>
+        <ingedient>pimiento</ingedient>
         <ingedient>Onion</ingedient>
         <ingedient>salt</ingedient>
+        <ingedient>gelatin</ingedient>
         <ingedient>Mayonnaise</ingedient>
       </ingredients>
     </salad>
@@ -2195,6 +2316,7 @@
         <ingedient>tomato</ingedient>
         <ingedient>cilantro</ingedient>
         <ingedient>parsley</ingedient>
+        <ingedient>harissa</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>pepper</ingedient>
       </ingredients>
@@ -2203,6 +2325,7 @@
       <title>Moroccan Orange Walnut Salad</title>
       <ingredients>
         <ingedient>oranges</ingedient>
+        <ingedient>honey</ingedient>
         <ingedient>cinnamon</ingedient>
         <ingedient>radishes</ingedient>
         <ingedient>salt</ingedient>
@@ -2215,25 +2338,62 @@
         <ingedient>cucumber</ingedient>
         <ingedient>celery</ingedient>
         <ingedient>mayonnaise</ingedient>
+        <ingedient>dill</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>greens</ingedient>
       </ingredients>
     </salad>
     <salad>
       <title>Norwegian Beet Salad</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>beet</ingedient>
+        <ingedient>carrot</ingedient>
+        <ingedient>apple</ingedient>
+        <ingedient>pecans</ingedient>
+        <ingedient>walnuts</ingedient>
+        <ingedient>coconut</ingedient>
+        <ingedient>ginger</ingedient>
+        <ingedient>parsley</ingedient>
+        <ingedient>Salt</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Norwegian Lobster with Potato and Sour Cream Salad</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>egg</ingedient>
+        <ingedient>salt</ingedient>
+        <ingedient>sugar</ingedient>
+        <ingedient>potatoes</ingedient>
+        <ingedient>onions</ingedient>
+        <ingedient>Mayonnaise</ingedient>
+        <ingedient>cream</ingedient>
+        <ingedient>chives</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>OLIVE-EGG-RICE SALAD</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>rice</ingedient>
+        <ingedient>olives</ingedient>
+        <ingedient>parsley</ingedient>
+        <ingedient>pimiento</ingedient>
+        <ingedient>salt</ingedient>
+        <ingedient>mayonnaise</ingedient>
+        <ingedient>egg</ingedient>
+        <ingedient>lettuce</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>ORANGE MINT RICE SALAD</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>orange</ingedient>
+        <ingedient>rice</ingedient>
+        <ingedient>raisins</ingedient>
+        <ingedient>mint</ingedient>
+        <ingedient>walnuts</ingedient>
+        <ingedient>salt</ingedient>
+        <ingedient>pepper</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Pacific Garden Salad</title>
@@ -2248,6 +2408,7 @@
         <ingedient>apricots</ingedient>
         <ingedient>strawberries</ingedient>
         <ingedient>cantaloupe</ingedient>
+        <ingedient>pistachios</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -2305,6 +2466,7 @@
     <salad>
       <title>Pechay Salad</title>
       <ingredients>
+        <ingedient>petchay</ingedient>
         <ingedient>honey</ingedient>
         <ingedient>garlic</ingedient>
         <ingedient>vinegar</ingedient>
@@ -2417,6 +2579,7 @@
     <salad>
       <title>R&#xF8;dk&#xE5;lssalat med appelsin</title>
       <ingredients>
+        <ingedient>Rutabaga</ingedient>
         <ingedient>oranges</ingedient>
         <ingedient>walnut</ingedient>
       </ingredients>
@@ -2499,6 +2662,7 @@
         <ingedient>peppers</ingedient>
         <ingedient>lemongrass</ingedient>
         <ingedient>garlic</ingedient>
+        <ingedient>ginger</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -2560,6 +2724,7 @@
       <title>Strawberry Turkey Salad</title>
       <ingredients>
         <ingedient>Mayonnaise</ingedient>
+        <ingedient>chutney</ingedient>
         <ingedient>lime</ingedient>
         <ingedient>curry</ingedient>
         <ingedient>Turkey</ingedient>
@@ -2594,6 +2759,7 @@
       <title>Strawberry-Chicken Salad</title>
       <ingredients>
         <ingedient>Mayonnaise</ingedient>
+        <ingedient>chutney</ingedient>
         <ingedient>lime</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>curry</ingedient>
@@ -2609,6 +2775,7 @@
         <ingedient>Chicken</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>walnuts</ingedient>
+        <ingedient>poppyseed</ingedient>
         <ingedient>strawberries</ingedient>
       </ingredients>
     </salad>
@@ -2655,7 +2822,6 @@
     <salad>
       <title>Sushi Salad</title>
       <ingredients>
-        <ingedient>pepper</ingedient>
         <ingedient>orange</ingedient>
         <ingedient>cucumber</ingedient>
         <ingedient>carrot</ingedient>
@@ -2720,6 +2886,7 @@
         <ingedient>Mayonnaise</ingedient>
         <ingedient>yogurt</ingedient>
         <ingedient>capers</ingedient>
+        <ingedient>dill</ingedient>
         <ingedient>spaghetti</ingedient>
         <ingedient>Peas</ingedient>
         <ingedient>carrot</ingedient>
@@ -2748,6 +2915,7 @@
         <ingedient>rice</ingedient>
         <ingedient>tuna</ingedient>
         <ingedient>pepper</ingedient>
+        <ingedient>dill</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>celery</ingedient>
         <ingedient>mushroom</ingedient>
@@ -2814,6 +2982,7 @@
         <ingedient>yogurt</ingedient>
         <ingedient>Tuna</ingedient>
         <ingedient>salt</ingedient>
+        <ingedient>almond</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -2845,7 +3014,6 @@
         <ingedient>Eggplant</ingedient>
         <ingedient>lemon</ingedient>
         <ingedient>salt</ingedient>
-        <ingedient>oil</ingedient>
         <ingedient>garlic</ingedient>
         <ingedient>vinegar</ingedient>
       </ingredients>
@@ -2856,6 +3024,7 @@
         <ingedient>garlic</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>Onion</ingedient>
+        <ingedient>watercress</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -2864,6 +3033,7 @@
         <ingedient>Apple</ingedient>
         <ingedient>nuts</ingedient>
         <ingedient>celery</ingedient>
+        <ingedient>mayonaise</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -2872,10 +3042,12 @@
         <ingedient>butter</ingedient>
         <ingedient>flour</ingedient>
         <ingedient>milk</ingedient>
+        <ingedient>lobster</ingedient>
         <ingedient>egg</ingedient>
         <ingedient>Salt</ingedient>
         <ingedient>lettuce</ingedient>
         <ingedient>water</ingedient>
+        <ingedient>butter</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -2884,6 +3056,8 @@
         <ingedient>garlic</ingedient>
         <ingedient>ginger</ingedient>
         <ingedient>honey</ingedient>
+        <ingedient>watercress</ingedient>
+        <ingedient>scallions</ingedient>
         <ingedient>ginger</ingedient>
         <ingedient>garlic</ingedient>
         <ingedient>salt</ingedient>
@@ -2960,7 +3134,9 @@
       <ingredients>
         <ingedient>spinach</ingedient>
         <ingedient>arugula</ingedient>
+        <ingedient>watercress</ingedient>
         <ingedient>tempeh</ingedient>
+        <ingedient>cider</ingedient>
         <ingedient>tempeh</ingedient>
         <ingedient>walnut</ingedient>
       </ingredients>
@@ -3063,7 +3239,12 @@
     </salad>
     <salad>
       <title>Cranberry Spinach Salad</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>spinach</ingedient>
+        <ingedient>cranberries</ingedient>
+        <ingedient>bacon</ingedient>
+        <ingedient>honey</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Grilled Avocado and Scallop Salad with Honey-Lemon Garlic Dressing</title>
@@ -3091,6 +3272,7 @@
         <ingedient>radishes</ingedient>
         <ingedient>watercress</ingedient>
         <ingedient>oranges</ingedient>
+        <ingedient>cilantro</ingedient>
         <ingedient>salt</ingedient>
       </ingredients>
     </salad>
@@ -3140,7 +3322,15 @@
     </salad>
     <salad>
       <title>Harvest Salad with Turnip</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>turnips</ingedient>
+        <ingedient>broccoli</ingedient>
+        <ingedient>carrots</ingedient>
+        <ingedient>vinegar</ingedient>
+        <ingedient>salt</ingedient>
+        <ingedient>cayenne</ingedient>
+        <ingedient>cumin</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Category:Red onion Salad Recipes</title>
@@ -3172,6 +3362,7 @@
       <title>Bittersweet Salad</title>
       <ingredients>
         <ingedient>radicchio</ingedient>
+        <ingedient>endigia</ingedient>
         <ingedient>ricotta</ingedient>
       </ingredients>
     </salad>
@@ -3225,7 +3416,11 @@
     </salad>
     <salad>
       <title>Winter Weather Greens Salad</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>mustard</ingedient>
+        <ingedient>salt</ingedient>
+        <ingedient>kale</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Category:Root vegetable Salad Recipes</title>
@@ -3323,6 +3518,7 @@
       <title>Garbanzo Cobb Salad</title>
       <ingredients>
         <ingedient>tomato</ingedient>
+        <ingedient>bacon</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -3385,6 +3581,7 @@
     <salad>
       <title>Sensational Salad</title>
       <ingredients>
+        <ingedient>almond</ingedient>
         <ingedient>oranges</ingedient>
         <ingedient>pepper</ingedient>
       </ingredients>
@@ -3401,6 +3598,7 @@
         <ingedient>cayenne</ingedient>
         <ingedient>tempeh</ingedient>
         <ingedient>greens</ingedient>
+        <ingedient>chicory</ingedient>
         <ingedient>radicchio</ingedient>
         <ingedient>carrot</ingedient>
         <ingedient>mushroom</ingedient>
@@ -3430,6 +3628,7 @@
         <ingedient>prawns</ingedient>
         <ingedient>mushroom</ingedient>
         <ingedient>lettuce</ingedient>
+        <ingedient>ginger</ingedient>
         <ingedient>honey</ingedient>
         <ingedient>chives</ingedient>
         <ingedient>dill</ingedient>
@@ -3450,6 +3649,7 @@
     <salad>
       <title>Grandma's Super Salad</title>
       <ingredients>
+        <ingedient>lettuce</ingedient>
         <ingedient>mayonnaise</ingedient>
         <ingedient>sausage</ingedient>
       </ingredients>
@@ -3541,6 +3741,7 @@
     <salad>
       <title>Bordeaux Berried Avocado Salad</title>
       <ingredients>
+        <ingedient>greens</ingedient>
         <ingedient>strawberries</ingedient>
         <ingedient>almond</ingedient>
       </ingredients>
@@ -3663,6 +3864,7 @@
       <title>Mixed Baby Greens with Spicy Asian Citrus Vinaigrette</title>
       <ingredients>
         <ingedient>water</ingedient>
+        <ingedient>ginger</ingedient>
         <ingedient>garlic</ingedient>
         <ingedient>garlic</ingedient>
         <ingedient>cilantro</ingedient>
@@ -4208,6 +4410,7 @@
         <ingedient>strawberries</ingedient>
         <ingedient>honey</ingedient>
         <ingedient>paprika</ingedient>
+        <ingedient>ginger</ingedient>
         <ingedient>mayonnaise</ingedient>
       </ingredients>
     </salad>
@@ -4252,6 +4455,7 @@
     <salad>
       <title>Akif's Avocado Green Salad</title>
       <ingredients>
+        <ingedient>kiwi</ingedient>
         <ingedient>spinach</ingedient>
         <ingedient>spinach</ingedient>
         <ingedient>tomato</ingedient>
@@ -4334,6 +4538,7 @@
       <title>Cranberry Orange Salad</title>
       <ingredients>
         <ingedient>orange</ingedient>
+        <ingedient>cranberry</ingedient>
         <ingedient>gelatin</ingedient>
         <ingedient>water</ingedient>
         <ingedient>water</ingedient>
@@ -4445,6 +4650,7 @@
     <salad>
       <title>Cashew-Chicken Salad</title>
       <ingredients>
+        <ingedient>chicken</ingedient>
         <ingedient>apple</ingedient>
         <ingedient>cashews</ingedient>
         <ingedient>lettuce</ingedient>
@@ -4660,6 +4866,7 @@
         <ingedient>walnuts</ingedient>
         <ingedient>basil</ingedient>
         <ingedient>salt</ingedient>
+        <ingedient>greens</ingedient>
         <ingedient>kiwi</ingedient>
         <ingedient>grapefruit</ingedient>
         <ingedient>strawberries</ingedient>
@@ -4776,6 +4983,7 @@
     <salad>
       <title>Bell Pepper Salad</title>
       <ingredients>
+        <ingedient>dill</ingedient>
         <ingedient>feta</ingedient>
         <ingedient>salt</ingedient>
       </ingredients>
@@ -5010,19 +5218,62 @@
     </salad>
     <salad>
       <title>Autumn Greens and Ginger Soup</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>arugula</ingedient>
+        <ingedient>nuts</ingedient>
+        <ingedient>walnuts</ingedient>
+        <ingedient>plum</ingedient>
+        <ingedient>ginger</ingedient>
+        <ingedient>lemongrass</ingedient>
+        <ingedient>salt</ingedient>
+        <ingedient>pepper</ingedient>
+        <ingedient>butter</ingedient>
+        <ingedient>onions</ingedient>
+        <ingedient>carrots</ingedient>
+        <ingedient>ginger</ingedient>
+        <ingedient>cream</ingedient>
+        <ingedient>Salt</ingedient>
+        <ingedient>pepper</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Salad of Green Beans, Onions and Beets</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>beets</ingedient>
+        <ingedient>vinegar</ingedient>
+        <ingedient>Salt</ingedient>
+        <ingedient>pepper</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Julienne Salad</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>lettuce</ingedient>
+        <ingedient>eggs</ingedient>
+        <ingedient>onions</ingedient>
+        <ingedient>chicken</ingedient>
+        <ingedient>ham</ingedient>
+        <ingedient>mozzarella</ingedient>
+        <ingedient>tomato</ingedient>
+        <ingedient>mayonnaise</ingedient>
+        <ingedient>cream</ingedient>
+        <ingedient>mustard</ingedient>
+        <ingedient>honey</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Royal Shrimp Green Salad</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>shrimp</ingedient>
+        <ingedient>mesclun</ingedient>
+        <ingedient>caviar</ingedient>
+        <ingedient>basil</ingedient>
+        <ingedient>chervil</ingedient>
+        <ingedient>dill</ingedient>
+        <ingedient>mustard</ingedient>
+        <ingedient>salt</ingedient>
+        <ingedient>pepper</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Fresh Corn, Avocado, Tomato Salad</title>
@@ -5048,7 +5299,19 @@
     </salad>
     <salad>
       <title>Seafood Salad II</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>crawfish</ingedient>
+        <ingedient>crayfish</ingedient>
+        <ingedient>mussels</ingedient>
+        <ingedient>octopus</ingedient>
+        <ingedient>squids</ingedient>
+        <ingedient>marjoram</ingedient>
+        <ingedient>parsley</ingedient>
+        <ingedient>carrot</ingedient>
+        <ingedient>celery</ingedient>
+        <ingedient>onion</ingedient>
+        <ingedient>Salt</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Bloody Caesar Salad</title>
@@ -5056,7 +5319,9 @@
     </salad>
     <salad>
       <title>Grilled Watermelon Salad with Goat Cheese</title>
-      <ingredients/>
+      <ingredients>
+        <ingedient>salt</ingedient>
+      </ingredients>
     </salad>
     <salad>
       <title>Layered Fruit and Shrimp Salad</title>

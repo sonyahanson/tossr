@@ -8,8 +8,13 @@ def parse_wikia_recipe(text)
     
     text.each_line do |line|
         if line.start_with?("*")
-            line.scan(/\[\[(\w*)\]\]/) do |ingredient|
-                ingredients.push($1)
+            line.scan(/\[\[(\w*-?\w*)\]\]|\[\[(\w*-?\w*)\|/) do |ingredient|
+                if not $1.nil?
+                    ingredients.push($1)
+                end
+                if not $2.nil?
+                    ingredients.push($2)
+                end
             end
         end
     end
