@@ -26,10 +26,10 @@ builder = Nokogiri::XML::Builder.new do |xml|
         
         pages.each_with_index  do |page,pi|
             xml.salad {
-                xml.title = page.xpath("//title")[pi].text
+                xml.title page.xpath("//title")[pi].text
                 xml.ingredients {
                     parse_wikia_recipe(page.xpath("//text")[pi].text).each do |ingredient|
-                        xml.ingedient = ingredient
+                        xml.ingedient ingredient
                     end
                 }
             }
