@@ -3,12 +3,17 @@ require 'nokogiri'
 @doc.remove_namespaces!
 pages = @doc.xpath("//page")
 
+def filter_ingredients(ingredients)
+    ingredients.map! &:downcase
+    ingredients.uniq!
+end
+
 def parse_wikia_recipe(text)
     ingredients = []
     
     text.each_line do |line|
         if line.start_with?("*")
-            line.scan(/\[\[(\w*-?\w*)\]\]|\[\[(\w*-?\w*)\|/) do |ingredient|
+            line.scan(/\[\[(\w*-?\s?\w*)\]\]|\[\[(\w*-?\s?\w*)\|/) do |ingredient|
                 if not $1.nil?
                     ingredients.push($1)
                 end
@@ -20,6 +25,7 @@ def parse_wikia_recipe(text)
     end
     if ingredients.length == 0
     end
+    filter_ingredients(ingredients)
     return ingredients
     
 end
@@ -30,6 +36,7 @@ builder = Nokogiri::XML::Builder.new do |xml|
     xml.salads {
         
         pages.each_with_index  do |page,pi|
+            if not page.xpath("//title")[pi].text.start_with? "Category:"
             xml.salad {
                 xml.title page.xpath("//title")[pi].text
                 xml.ingredients {
@@ -38,6 +45,7 @@ builder = Nokogiri::XML::Builder.new do |xml|
                     end
                 }
             }
+            end
         end
       }
   }
