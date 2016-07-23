@@ -185,3 +185,17 @@
 :sizes:
   :small: 3.0
   :large: 4.0
+:set_salads:
+  cobb:
+      :small: 7.95
+      :large: 9.95
+      ingredients:
+         Grilled chicken
+         Avocado
+         Bacon
+         Blue cheese
+         Egg
+         Tomato
+      dressing:
+         chunky blue cheese
+

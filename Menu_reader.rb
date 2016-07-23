@@ -33,3 +33,14 @@ def hash_to_ingredient(dict)
     end
     return ingredients
 end
+
+def read_yml_setsalads(filename)
+
+    # Load the yaml file into a hash
+    settings = YAML::load_file filename
+
+    # These are now hashes with ingredient name as key
+    # with hashes representing ingredients, that contain metadata such as prices
+    set_salads = settings[:set_salads]
+    return set_salads
+end
