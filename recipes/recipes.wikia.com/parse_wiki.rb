@@ -1,7 +1,7 @@
 require 'nokogiri'
-@doc = Nokogiri::XML(File.open("Recipes+Wiki-20160220213729.xml"))
+@doc = Nokogiri::XML(File.open('Recipes+Wiki-20160220213729.xml'))
 @doc.remove_namespaces!
-pages = @doc.xpath("//page")
+pages = @doc.xpath('//page')
 
 def filter_ingredients(ingredients)
     ingredients.map! &:downcase
@@ -30,6 +30,14 @@ def parse_wikia_recipe(text)
     
 end
 
+def canonicalize_ingredient(ingredient)
+    ingredient.gsub!('berries', 'berry')
+    ingredient.gsub!('tomatoes', 'tomato')
+    return ingredient
+end
+
+
+
 builder = Nokogiri::XML::Builder.new do |xml|
   xml.root {
       
@@ -41,7 +49,7 @@ builder = Nokogiri::XML::Builder.new do |xml|
                 xml.title page.xpath("//title")[pi].text
                 xml.ingredients {
                     parse_wikia_recipe(page.xpath("//text")[pi].text).each do |ingredient|
-                        xml.ingedient ingredient
+                        xml.ingedient canonicalize_ingredient(ingredient)
                     end
                 }
             }

@@ -23,10 +23,10 @@
     <salad>
       <title>Berry Salad Supreme</title>
       <ingredients>
-        <ingedient>raspberries</ingedient>
-        <ingedient>strawberries</ingedient>
-        <ingedient>blueberries</ingedient>
-        <ingedient>blackberries</ingedient>
+        <ingedient>raspberry</ingedient>
+        <ingedient>strawberry</ingedient>
+        <ingedient>blueberry</ingedient>
+        <ingedient>blackberry</ingedient>
         <ingedient>grapes</ingedient>
       </ingredients>
     </salad>
@@ -186,7 +186,7 @@
       <ingredients>
         <ingedient>turkey meat</ingedient>
         <ingedient>apple</ingedient>
-        <ingedient>dried cranberries</ingedient>
+        <ingedient>dried cranberry</ingedient>
         <ingedient>orange</ingedient>
         <ingedient>almond</ingedient>
         <ingedient>cranberry sauce</ingedient>
@@ -291,7 +291,7 @@
     <salad>
       <title>Crai-zy Apple Raspberry-Pecan Salad</title>
       <ingredients>
-        <ingedient>dried cranberries</ingedient>
+        <ingedient>dried cranberry</ingedient>
         <ingedient>celery</ingedient>
         <ingedient>pecan</ingedient>
       </ingredients>
@@ -382,7 +382,7 @@
         <ingedient>turkey meat</ingedient>
         <ingedient>celery</ingedient>
         <ingedient>raisins</ingedient>
-        <ingedient>dried cranberries</ingedient>
+        <ingedient>dried cranberry</ingedient>
         <ingedient>almond</ingedient>
         <ingedient>red onion</ingedient>
         <ingedient>mayonnaise</ingedient>
@@ -433,12 +433,12 @@
     <salad>
       <title>Fresh Peach Salad</title>
       <ingredients>
-        <ingedient>blueberries</ingedient>
+        <ingedient>blueberry</ingedient>
         <ingedient>cherries</ingedient>
         <ingedient>peaches</ingedient>
         <ingedient>grand marnier</ingedient>
         <ingedient>sugar</ingedient>
-        <ingedient>raspberries</ingedient>
+        <ingedient>raspberry</ingedient>
         <ingedient>vanilla yogurt</ingedient>
       </ingredients>
     </salad>
@@ -801,7 +801,7 @@
     <salad>
       <title>Mozzarella Tomato</title>
       <ingredients>
-        <ingedient>tomatoes</ingedient>
+        <ingedient>tomato</ingedient>
         <ingedient>mozarella</ingedient>
         <ingedient>olive oil</ingedient>
         <ingedient>balsamic vinegar</ingedient>
@@ -909,7 +909,7 @@
         <ingedient>butter</ingedient>
         <ingedient>lettuce</ingedient>
         <ingedient>turkey</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>grapes</ingedient>
         <ingedient>celery</ingedient>
         <ingedient>red onion</ingedient>
@@ -1177,7 +1177,7 @@
         <ingedient>asparagus</ingedient>
         <ingedient>english cucumber</ingedient>
         <ingedient>greens</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>sour cream</ingedient>
         <ingedient>olive oil</ingedient>
         <ingedient>water</ingedient>
@@ -1565,7 +1565,7 @@
         <ingedient>basil</ingedient>
         <ingedient>iceberg lettuce</ingedient>
         <ingedient>apricots</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>cantaloupe</ingedient>
       </ingredients>
     </salad>
@@ -2438,7 +2438,7 @@
         <ingedient>mustard</ingedient>
         <ingedient>ham</ingedient>
         <ingedient>celery</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>bananas</ingedient>
       </ingredients>
     </salad>
@@ -2854,7 +2854,7 @@
         <ingedient>lemon juice</ingedient>
         <ingedient>egg</ingedient>
         <ingedient>lettuce</ingedient>
-        <ingedient>cherry tomatoes</ingedient>
+        <ingedient>cherry tomato</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -2881,7 +2881,7 @@
         <ingedient>pepper</ingedient>
         <ingedient>iceberg lettuce</ingedient>
         <ingedient>apricots</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>cantaloupe</ingedient>
         <ingedient>pistachios</ingedient>
       </ingredients>
@@ -3203,7 +3203,7 @@
     <salad>
       <title>Spinach-Asparagus Salad with Strawberry Dressing</title>
       <ingredients>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>orange juice</ingedient>
         <ingedient>raspberry vinegar</ingedient>
         <ingedient>olive oil</ingedient>
@@ -3226,19 +3226,19 @@
         <ingedient>paprika</ingedient>
         <ingedient>pepper</ingedient>
         <ingedient>lettuce</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>red onion</ingedient>
       </ingredients>
     </salad>
     <salad>
       <title>Strawberry Summer Salad</title>
       <ingredients>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>mint</ingedient>
         <ingedient>honey</ingedient>
         <ingedient>sour cream</ingedient>
         <ingedient>lettuce</ingedient>
-        <ingedient>blueberries</ingedient>
+        <ingedient>blueberry</ingedient>
         <ingedient>peach</ingedient>
         <ingedient>kiwi</ingedient>
         <ingedient>oranges</ingedient>
@@ -3256,7 +3256,7 @@
         <ingedient>celery</ingedient>
         <ingedient>red onion</ingedient>
         <ingedient>salt</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>lettuce</ingedient>
         <ingedient>mint</ingedient>
       </ingredients>
@@ -3264,7 +3264,7 @@
     <salad>
       <title>Strawberry and Stilton Salad</title>
       <ingredients>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>basil</ingedient>
         <ingedient>raspberry vinegar</ingedient>
         <ingedient>granulated sugar</ingedient>
@@ -3281,7 +3281,7 @@
       <ingredients>
         <ingedient>butter</ingedient>
         <ingedient>lettuce</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>red onion</ingedient>
         <ingedient>orange</ingedient>
         <ingedient>pecans</ingedient>
@@ -3300,7 +3300,7 @@
         <ingedient>chicken</ingedient>
         <ingedient>celery</ingedient>
         <ingedient>red onion</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>lettuce</ingedient>
       </ingredients>
     </salad>
@@ -3315,13 +3315,13 @@
         <ingedient>walnuts</ingedient>
         <ingedient>brown rice</ingedient>
         <ingedient>poppyseed</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
       </ingredients>
     </salad>
     <salad>
       <title>Strawberry-Mango Salad</title>
       <ingredients>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>mango</ingedient>
         <ingedient>green onions</ingedient>
         <ingedient>lime juice</ingedient>
@@ -3341,7 +3341,7 @@
         <ingedient>walnuts</ingedient>
         <ingedient>brown rice</ingedient>
         <ingedient>poppy seeds</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -3507,7 +3507,7 @@
       <title>Tropical California Apricot Salad</title>
       <ingredients>
         <ingedient>apricots</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>kiwi</ingedient>
         <ingedient>apricot</ingedient>
         <ingedient>coconut</ingedient>
@@ -3810,10 +3810,10 @@
         <ingedient>apple</ingedient>
         <ingedient>orange</ingedient>
         <ingedient>pineapple</ingedient>
-        <ingedient>blueberries</ingedient>
+        <ingedient>blueberry</ingedient>
         <ingedient>kiwi</ingedient>
         <ingedient>mango</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>watermelon</ingedient>
       </ingredients>
     </salad>
@@ -3821,7 +3821,7 @@
       <title>Cranberry Spinach Salad</title>
       <ingredients>
         <ingedient>spinach</ingedient>
-        <ingedient>cranberries</ingedient>
+        <ingedient>cranberry</ingedient>
         <ingedient>red onion</ingedient>
         <ingedient>bacon</ingedient>
         <ingedient>honey</ingedient>
@@ -4133,7 +4133,7 @@
         <ingedient>sugar snap</ingedient>
         <ingedient>iceberg lettuce</ingedient>
         <ingedient>egg</ingedient>
-        <ingedient>plum tomatoes</ingedient>
+        <ingedient>plum tomato</ingedient>
         <ingedient>avocado</ingedient>
         <ingedient>watercress</ingedient>
         <ingedient>chicken</ingedient>
@@ -4376,7 +4376,7 @@
       <ingredients>
         <ingedient>asparagus</ingedient>
         <ingedient>smoked salmon</ingedient>
-        <ingedient>cranberries</ingedient>
+        <ingedient>cranberry</ingedient>
         <ingedient>wild rice</ingedient>
         <ingedient>olive oil</ingedient>
         <ingedient>dijon mustard</ingedient>
@@ -4439,7 +4439,7 @@
       <ingredients>
         <ingedient>greens</ingedient>
         <ingedient>hass avocado</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>avocado oil</ingedient>
         <ingedient>canola oil</ingedient>
         <ingedient>coarse salt</ingedient>
@@ -4717,7 +4717,7 @@
       <ingredients>
         <ingedient>salad greens</ingedient>
         <ingedient>red onion</ingedient>
-        <ingedient>dried cranberries</ingedient>
+        <ingedient>dried cranberry</ingedient>
         <ingedient>walnut</ingedient>
         <ingedient>blue cheese</ingedient>
         <ingedient>balsamic vinegar</ingedient>
@@ -4907,7 +4907,7 @@
       <title>Oregon Cranberry Pistachio Salad</title>
       <ingredients>
         <ingedient>romaine lettuce</ingedient>
-        <ingedient>dried cranberries</ingedient>
+        <ingedient>dried cranberry</ingedient>
         <ingedient>pistachios</ingedient>
         <ingedient>olive oil</ingedient>
         <ingedient>prepared mustard</ingedient>
@@ -5076,7 +5076,7 @@
         <ingedient>balsamic vinegar</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>black pepper</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>red onion</ingedient>
         <ingedient>pecans</ingedient>
         <ingedient>blue cheese</ingedient>
@@ -5238,7 +5238,7 @@
         <ingedient>buttermilk</ingedient>
         <ingedient>salt</ingedient>
         <ingedient>vegetable oil</ingedient>
-        <ingedient>tomatoes</ingedient>
+        <ingedient>tomato</ingedient>
       </ingredients>
     </salad>
     <salad>
@@ -5278,7 +5278,7 @@
         <ingedient>water</ingedient>
         <ingedient>pineapple</ingedient>
         <ingedient>sugar</ingedient>
-        <ingedient>cranberries</ingedient>
+        <ingedient>cranberry</ingedient>
         <ingedient>green grapes</ingedient>
         <ingedient>pecans</ingedient>
       </ingredients>
@@ -5327,7 +5327,7 @@
       <ingredients>
         <ingedient>salad greens</ingedient>
         <ingedient>watercress</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>red onion</ingedient>
         <ingedient>honey</ingedient>
         <ingedient>dry mustard</ingedient>
@@ -5428,7 +5428,7 @@
       <title>Wheat and Veggie Salad</title>
       <ingredients>
         <ingedient>cracked wheat</ingedient>
-        <ingedient>wheat berries</ingedient>
+        <ingedient>wheat berry</ingedient>
         <ingedient>tomato</ingedient>
         <ingedient>cucumber</ingedient>
         <ingedient>purple onion</ingedient>
@@ -5463,7 +5463,7 @@
         <ingedient>white onion</ingedient>
         <ingedient>corn chips</ingedient>
         <ingedient>avocado</ingedient>
-        <ingedient>tomatoes</ingedient>
+        <ingedient>tomato</ingedient>
         <ingedient>cheddar cheese</ingedient>
         <ingedient>catalina dressing</ingedient>
         <ingedient>ground beef</ingedient>
@@ -5904,7 +5904,7 @@
       <ingredients>
         <ingedient>greens</ingedient>
         <ingedient>spinach</ingedient>
-        <ingedient>blueberries</ingedient>
+        <ingedient>blueberry</ingedient>
         <ingedient>blue cheese</ingedient>
         <ingedient>red onion</ingedient>
         <ingedient>olive oil</ingedient>
@@ -5920,7 +5920,7 @@
       <title>Spinach and Strawberry Salad</title>
       <ingredients>
         <ingedient>spinach</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>slivered almond</ingedient>
       </ingredients>
     </salad>
@@ -5931,7 +5931,7 @@
         <ingedient>raspberry vinegar</ingedient>
         <ingedient>olive oil</ingedient>
         <ingedient>spinach</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>almonds</ingedient>
         <ingedient>goat cheese</ingedient>
       </ingredients>
@@ -5961,7 +5961,7 @@
         <ingedient>greens</ingedient>
         <ingedient>kiwi</ingedient>
         <ingedient>grapefruit</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>hass avocado</ingedient>
         <ingedient>avocado</ingedient>
       </ingredients>
@@ -5983,7 +5983,7 @@
         <ingedient>spinach</ingedient>
         <ingedient>hass avocado</ingedient>
         <ingedient>grapefruit</ingedient>
-        <ingedient>raspberries</ingedient>
+        <ingedient>raspberry</ingedient>
         <ingedient>raspberry vinegar</ingedient>
         <ingedient>avocado oil</ingedient>
         <ingedient>olive oil</ingedient>
@@ -6031,7 +6031,7 @@
       <title>Blackberry Spinach Salad</title>
       <ingredients>
         <ingedient>spinach</ingedient>
-        <ingedient>blackberries</ingedient>
+        <ingedient>blackberry</ingedient>
         <ingedient>goat cheese</ingedient>
         <ingedient>feta</ingedient>
         <ingedient>cherry tomato</ingedient>
@@ -6587,8 +6587,8 @@
         <ingedient>pear</ingedient>
         <ingedient>orange</ingedient>
         <ingedient>plum</ingedient>
-        <ingedient>blueberries</ingedient>
-        <ingedient>strawberries</ingedient>
+        <ingedient>blueberry</ingedient>
+        <ingedient>strawberry</ingedient>
         <ingedient>pineapple</ingedient>
         <ingedient>shrimp</ingedient>
         <ingedient>crawfish</ingedient>
